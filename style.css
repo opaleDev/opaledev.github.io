@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+body{
+background-color: black;
+  padding: 0;
+  margin: 0;
+  color:black;
+  background-image: url("https://scontent.cdninstagram.com/v/t1.15752-9/297151443_779266093492945_5698212054111063338_n.jpg?stp=dst-jpg_p640x640&_nc_cat=107&ccb=1-7&_nc_sid=5a057b&_nc_ohc=qqpRR1nBQWYAX85TLTw&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.cdninstagram.com&oh=03_AVLirVBIQGq5VNyZTrQiEhobsNc_H1AVTpqiXrgrDJfL5g&oe=63164163");
+  font-family: 'Lato', sans-serif;
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size:    300px 400px;
+
+}
+body .page{
+  margin: 20px 80px;
+}
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  position:sticky;
+  top: 0;
+  background-color: lightgrey;
+  padding: 10px 20px;
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 5px;
+}
+nav .onglets{
+  display:flex;
+  flex-wrap:wrap;
+}
+nav .onglets a {
+  margin-right: 15px;
+  cursor:pointer;
+  color: black;
+ font-family: 'Audiowide', sans-serif;
+}
+nav .buttons button{
+  padding: 13px 20px;
+  color: #fff;
+  border:none;
+  font-size: 15px;
+  cursor:pointer;
+  outline:none;
+}
+nav .buttons .login{
+  background-color: black;
+  margin-right: 10px;
+  color: #white;
+}
+nav .buttons .register{
+  background-color: white;
+color: black;
+}
+
+header{
+  margin-top: 10px;
+
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+header h1{
+  text-align:center;
+  font-size: 60px;
+  padding: 150px;
+  transition: transform 2.5s;
+  color: white;
+}
+header p{
+  text-align:center;
+  color: white;
+}
+footer{
+  background-color: darkgrey;
+  padding: 18px 100px;
+  color:black;
+}
+footer .colonnes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/* Fin du pied de page */
+
+@media screen and (max-width: 640px){
+  body .page{
+    margin: 10px;
+  }
+  nav .onglets{
+    display:none;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+  }
+  header h1{
+    font-size: 30px;
+    padding: 100px;
+  }
